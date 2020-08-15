@@ -1,0 +1,9 @@
+Hash Table - object in JS, or dictionary in Python
+
+store both key and value.
+input -> hash function -> address
+Hash function is one way, same output for same input, but cannot reverse to get input. -> idempotent
+
+hash table have possibility of collision (assigning data to same address)
+collision slows down reading and writing causeing it to be O(n)
+method to deal with collision is using linked lists
