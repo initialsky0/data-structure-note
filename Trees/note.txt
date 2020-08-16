@@ -1,0 +1,29 @@
+Binary tree:
+each node can only have 0, 1, 2 children.
+can have perfect(all filled) or Full(0 or 2 children nothing else).
+perfect binary is more efficient because nodes double each level down.
+Cause half of the data is on the bottom. -> O(log N)
+
+Level 0: 2^0 = 1,
+Level 1: 2^1 = 2,
+Level 2: 2^2 = 4,
+Level 3: 2^3 = 8
+
+# of nodes = 2^level - 1
+log base of 2 -> log(nodes) = levels
+
+Binary search tree:
+      root
+      (50)
+least ----> greatest
+(0)           (100)
+
+search tree iterate through comparison
+
+Binary Heap:
+slow look up: O(n)
+top level always have a higher value compare to lower level (max heap)
+top levem have lower value than lower level (min heap)
+
+Priority Queue:
+each element have a priority. Higher priority get server first.

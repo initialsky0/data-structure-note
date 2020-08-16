@@ -1,0 +1,7 @@
+Graph
+contains Node(vertex) and connect by Edge
+Directed - one direction
+Undeirected - bi-directional can go both way
+weighted graph - edge can have value(optimal path)
+cyclic - relation is in cycle
+Acyclic - cannot reach origin without going backward

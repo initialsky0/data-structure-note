@@ -1,0 +1,11 @@
+Stacks + Queues
+No random acess, only can modify start or end items
+
+Stacks - like plates stacking
+Last in first out - LIFO
+functions follows stack -> execute one by one
+fairly ok to implement with array or linkedlist
+
+Queues - like a line to enter
+First in first out - FIFO
+ideally done with linkedlist

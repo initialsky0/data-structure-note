@@ -1,0 +1,30 @@
+Big O:
+
+good code -> readable and scalable(speed(BIG O) and memory)
+
+define as how long an algorithm run as input increase
+Its measured by # of operation
+
+RULES TO DETERMINE BIG O:
+1. Consider worst case
+2. Remove constants -> Remove anything thats constant time
+3. Different terms for input -> function(a, b) sequential: BIG O(a + b), nested: BIG O(a * b)
+4. Drop non Dominants -> when function have O(n) and O(n^2), it becomes O(n^2 + n) so drop the non dominant(O(n)) make BIG O: O(n^2)
+
+
+
+
+O(n) -> Linear Time -> increase operation as input increase in linear fashion
+
+O(1) -> Constant Time -> Only one operation is perform, no matter how many input is given. 
+     -> As long as the relationship between operation vs. elements is flat, its O(1)
+
+O(n^2) -> Quadratic Time -> when there is nested loop
+
+O(n!) -> Factorial Tine -> nested loop for every input, should not be used
+
+MEMORY
+
+HEAP -> stores variable
+
+Stack -> keep track of function call
