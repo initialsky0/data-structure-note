@@ -1,0 +1,22 @@
+Recursion
+calling the same function within iself.
+function inception() {
+   inception();
+}
+
+will result in stack overflow due to continuous calling without popping.
+Therefore require a base case
+1. Identify the base case.
+2. Identify the recursive case.
+3. Get closer and closer and return when needed. usually there is 2 returns.
+
+0, 1, 2, 3, 4, 5, 6, 7,  8,  9
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+
+when to use recursion:
+
+traversing or converting something into a tree.
+1. Divided into a number of subproblems that are smaller instances of the same problem.
+2. Each instances of the subproblem is identical in nature.
+3. The solution of each subproblem can be combined to solve the problem at hand.
+
