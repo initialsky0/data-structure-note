@@ -1,0 +1,9 @@
+Sorting
+
+.sort method is not the solution for function with larger imput.
+scalable sorting algorithm is required for large input.
+JS sorts by lokking up string unicode points. So sorting numbers might be inaccurate.
+also sort function time complexity is dependent on browsers (due to their compile engine)
+
+elementary sort = bubble sort, insertion sort, selection sort
+O(nlog(n)) - divide and conquer with recursion
