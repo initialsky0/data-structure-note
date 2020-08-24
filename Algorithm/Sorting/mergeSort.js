@@ -33,7 +33,7 @@ const merge = (left, right) => {
 }
 
 const mergeShift = (left, right) => {
-   // function using shift which have a higher time complexity, but easier to manage
+   // function using shift which have a higher time complexity, but easier to manage and read
    const mergedArray = [];
    while(left.length || right.length) {
       if(left.length === 0 || left[0] > right[0]) {

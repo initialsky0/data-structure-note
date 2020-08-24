@@ -1,3 +1,5 @@
+// from start to end, shift the largest to the end sequentially
+
 const bubbleSortFixed = (array) => {
    // The largest value is always pushed to the end of the array each iteration
    for(let i = (array.length - 1); i > 0; i--) {

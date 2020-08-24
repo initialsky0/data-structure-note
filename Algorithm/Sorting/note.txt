@@ -6,4 +6,23 @@ JS sorts by lokking up string unicode points. So sorting numbers might be inaccu
 also sort function time complexity is dependent on browsers (due to their compile engine)
 
 elementary sort = bubble sort, insertion sort, selection sort
-O(nlog(n)) - divide and conquer with recursion
+O(nlog(n)) - divide and conquer with recursion, merge sort and quick sort
+
+stable sorting - when the original order of the list is reserved
+undtable sorting - when the order of the list might change after sorting
+Quick sort - pivot
+
+When to use sort:
+
+// Comparison sort
+bubble sort: not recommended for any purpose
+selection sort: similar to bubble sort, not recommended for real life application
+insertion sort: a few items or items are mostly sorted
+
+merge sort: divide and conquer with consistent time complexity of O(n log(n)), but suffer with space complexity
+            good for huge file for external sorting
+
+quick sort: most popular sorting, but have a bad pivot can result in worst case of O(n^2), used when average performance is important than worst case
+
+// Non-Comparison sort
+counting sort, radix sort

@@ -1,4 +1,4 @@
-// good for almost sorted list
+// good for almost sorted list, start from left, find the smallest value and swap in order
 
 const selectionSort = (array) => {
    for(let i = 0; i < array.length; i++) {

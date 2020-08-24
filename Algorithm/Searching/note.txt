@@ -1,0 +1,19 @@
+Traversal: going through every data in the structure O(n)
+
+Breadth First Search - going through data through levels one by one (of tree)
+O(n) Pro - Shortest Path, closer nodes | Con - More memory
+used if user have idea of where the search is around in a graph or tree
+
+Depth Frist Search - going down the tree to leaf for search. Traverse back to parent node if search is not done.
+                   - going through entire tree until search value is found by traverse through branches.
+O(n) Pro - Less memory, does path exist? | Con - can be slow for deep tree
+if the search is on the bottom for looking for path existence
+three type - preorder, inorder, postorder
+inorder -> from bottom in numerical order
+preorder -> follows parent node down
+postorder -> left leaf to right leaf up to parent
+
+Shortest for weighted graph:
+Dijkstra -> Have better time complexity and more efficient
+Bellman-ford -> Can accommodate negative weight, therefore good for shortest path
+             -> But have a bad complexity O(n^2) and can take a long time to run
