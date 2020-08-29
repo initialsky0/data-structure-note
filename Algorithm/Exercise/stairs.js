@@ -38,4 +38,4 @@ const climbStairs = () => {
 
 const getStairsCombo = climbStairs();
 // should return 8 for 5 stairs
-console.log('Combination:', getStairsCombo(5));
+console.log('Combination:', getStairsCombo(10));
